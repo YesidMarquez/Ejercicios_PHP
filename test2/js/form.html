@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CRUD 1.0</title>
+	<script type="text/javascript" src="validaciones.js"></script>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+		
+		
+	</script>
+	
+	<div>
+		<center>
+			<fieldset>
+			    <h1>CRUD</h1>
+			    <form name= "formulario" id="formulario" ACTION="conectar_bd_insert.php" METHOD="POST" onclick="" onsubmit="">
+					<label>Ingrese el Nombre:</label>
+					<INPUT TYPE="text" NAME="nombre" id="nombre" complement="required"><br><br>
+					<label>Ingrese el Apellido:</label>
+					<INPUT TYPE="text" NAME="Apellido"><br><br>
+					<label>Ingrese la Cedula:</label>
+					<INPUT TYPE="text" NAME="Cedula"><br><br>
+					<label>Comentario:</label>
+					<INPUT TYPE="text" NAME="Comentario"><br><br>
+					<button TYPE="button" class="btn btn-primary active" onclick="validarFormulario('formulario');">Enviar</button>
+					
+					
+			  	</form>
+		  	</fieldset>
+		</center>
+	</div>
+</body>
+</html>
