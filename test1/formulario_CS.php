@@ -2,8 +2,10 @@
 <html>
 <head>
 	<title>CRUD 1.0</title>
+	<script type="text/javascript" src="js/validaciones_bd.js"></script>
 </head>
 <body>
+	<script type="text/javascript"></script>
 	<div>
 		<center>
 
@@ -11,11 +13,11 @@
 			<fieldset>
 			  
 			  <h1>CRUD</h1>
-			  	<FORM ACTION="conectar_bd.php" METHOD="POST">
+			  	<FORM ACTION="conectar_bd.php" METHOD="POST" name= "formulario_cs" id="formulario_cs" onclick="" onsubmit="">
 
-				Ingrese el Id_Usuario: <INPUT TYPE="text" NAME="usuario"><br><br>	
+				Ingrese el Id_Usuario: <INPUT TYPE="text" NAME="usuario" id= "usuario" complement="required"><br><br>	
 				
-				<INPUT TYPE="submit" VALUE="Consultar"><br><br>
+				<button TYPE="button" VALUE="Consultar" onclick="validarFormulario('formulario_cs');">Consultar</button>
 
 				</FORM>
 
